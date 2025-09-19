@@ -1,0 +1,34 @@
+[17-Sep-2025 17:24:06 UTC] PHP Warning:  Undefined array key "add_ons" in C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[17-Sep-2025 17:24:06 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[17-Sep-2025 17:24:06 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21 and defined in C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php:30
+Stack trace:
+#0 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status(NULL)
+#1 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\classes\transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform(Array)
+#2 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\api.php(25): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\api.php(19): Elementor\Modules\Home\API->transform_home_screen_data(Array)
+#4 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\module.php(102): Elementor\Modules\Home\API->get_home_screen_items()
+#5 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\module.php(64): Elementor\Modules\Home\Module->get_app_js_config()
+#6 C:\Users\skhan\Local Sites\admin\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts('')
+#7 C:\Users\skhan\Local Sites\admin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\skhan\Local Sites\admin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\skhan\Local Sites\admin\app\public\wp-admin\admin-header.php(144): do_action('admin_print_scr...')
+#10 C:\Users\skhan\Local Sites\admin\app\public\wp-admin\admin.php(240): require_once('C:\\Users\\skhan\\...')
+#11 {main}
+  thrown in C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 30
+[17-Sep-2025 17:24:11 UTC] PHP Warning:  Undefined array key "add_ons" in C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[17-Sep-2025 17:24:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[17-Sep-2025 17:24:11 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21 and defined in C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php:30
+Stack trace:
+#0 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status(NULL)
+#1 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\classes\transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform(Array)
+#2 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\api.php(25): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\api.php(19): Elementor\Modules\Home\API->transform_home_screen_data(Array)
+#4 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\module.php(102): Elementor\Modules\Home\API->get_home_screen_items()
+#5 C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\module.php(64): Elementor\Modules\Home\Module->get_app_js_config()
+#6 C:\Users\skhan\Local Sites\admin\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts('')
+#7 C:\Users\skhan\Local Sites\admin\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\skhan\Local Sites\admin\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\skhan\Local Sites\admin\app\public\wp-admin\admin-header.php(144): do_action('admin_print_scr...')
+#10 C:\Users\skhan\Local Sites\admin\app\public\wp-admin\admin.php(240): require_once('C:\\Users\\skhan\\...')
+#11 {main}
+  thrown in C:\Users\skhan\Local Sites\admin\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 30
